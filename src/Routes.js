@@ -7,6 +7,7 @@ import {NavigationContainer} from '@react-navigation/native';
 
 import {Home, Profile, Settings, Second} from './Screens';
 
+//instances
 const Tab = createMaterialTopTabNavigator();
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
